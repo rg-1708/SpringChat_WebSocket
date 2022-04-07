@@ -16,6 +16,10 @@ public class User {
     @Id
     @GeneratedValue
     private Long id;
-    private String name;
+    private String username;
     private String password;
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
 }
