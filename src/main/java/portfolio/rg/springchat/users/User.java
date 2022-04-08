@@ -1,10 +1,6 @@
 package portfolio.rg.springchat.users;
 
-
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -22,4 +18,9 @@ public class User {
     public void setUsername(String username) {
         this.username = username;
     }
+
+    public void setPassword(String password) {
+       this.password = password;
+    }
+
 }

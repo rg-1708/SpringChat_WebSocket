@@ -17,9 +17,11 @@ public class UserService {
     void initSomeUsers() {
         User user1 = new User();
         user1.setUsername("user1");
+        user1.setPassword("12345");
 
         User user2 = new User();
-        user1.setUsername("user2");
+        user2.setUsername("user2");
+        user2.setPassword("myPassword");
 
         userRepository.save(user1);
         userRepository.save(user2);
